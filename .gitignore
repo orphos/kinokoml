@@ -1,0 +1,16 @@
+/.vscode
+/.settings
+/.project
+/.factorypath
+/.classpath
+/target
+
+/*/.vscode
+/*/.settings
+/*/.project
+/*/.factorypath
+/*/.classpath
+/*/target
+
+.idea
+*.iml
