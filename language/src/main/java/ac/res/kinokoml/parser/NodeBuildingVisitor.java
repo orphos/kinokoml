@@ -227,8 +227,7 @@ public class NodeBuildingVisitor extends AbstractParseTreeVisitor<KinokoMLNode>
 
     @Override
     public KinokoMLNode visitUnitExpression(UnitExpressionContext ctx) {
-        // TODO Auto-generated method stub
-        throw newPanic();
+        return new UnitExpression();
     }
 
     @Override

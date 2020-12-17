@@ -105,4 +105,10 @@ public class EvalTest {
         check("let xs = { a = 10; b = 20; } in let ys = { xs with c = 30; } in ys.c", "30");
         check("let xs = { a = 10; b = 20; } in let ys = { xs with c = 30; } in ys.b", "20");
     }
+    @Test
+    public void testUnit() {
+        check("()", "()");
+        assertTrue(eval("()").isNull());
+    }
+
 }
